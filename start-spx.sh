@@ -17,4 +17,4 @@ else
 fi
 
 # Start the main application
-./SPX_linux64 "ASSETS/CONFIG/config.json"
+node server.js "ASSETS/CONFIG/config.json"
