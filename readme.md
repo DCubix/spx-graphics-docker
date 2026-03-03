@@ -7,13 +7,13 @@
 You can use a pre-built image from githubs registry:
 
 ```bash
-docker pull ghcr.io/amicaldo/spx-graphics-docker:v1.2.1
-docker run -d -p 5656:5656 --name spx_container ghcr.io/amicaldo/spx-graphics-docker:v1.2.1
+docker pull ghcr.io/amicaldo/spx-graphics-docker:v1.3.0
+docker run -d -p 5656:5656 --name spx_container ghcr.io/amicaldo/spx-graphics-docker:v1.3.0
 ```
 
 Use as base image
 ```bash
-FROM ghcr.io/amicaldo/spx-graphics-docker:v1.2.1
+FROM ghcr.io/amicaldo/spx-graphics-docker:v1.3.0
 ```
 
 # SPX Docker Deployment Guide
